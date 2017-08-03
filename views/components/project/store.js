@@ -28,12 +28,11 @@ export default class Store extends Reflux.Store {
     })
   }
 
-  onMenu(projectId) {
-    Service.menu(projectId).then((menu) => {
-      this.setState({
-        menu: menu
-      })
+  onMenu(list) {
+    this.setState({
+      CPU: list
     })
+    // console.log(this.state)
   }
 
   onSetKeyValue(key, value) {
