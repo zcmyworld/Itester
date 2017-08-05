@@ -1,6 +1,6 @@
 import 'whatwg-fetch'
 
-let host = 'http://127.0.0.1:3001'
+let host = 'http://127.0.0.1:3002'
 
 function checkStatus(response) {
   if (response.status >= 200 && response.status < 300) {

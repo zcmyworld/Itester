@@ -59,4 +59,4 @@ var respondWithData = function (code, output) {
 // var command = args.command;
 // console.log(command)
 
-getPluginData('swap', respondWithData)
+getPluginData('cpu_temp', respondWithData)

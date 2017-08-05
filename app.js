@@ -6,6 +6,10 @@ let path = require('path');
 let routerHandler = require('./app/Routes/web');
 let config = require('./app/Configs/')
 let send = require('koa-send');
+let cors = require('koa-cors');
+
+app.use(cors());
+
 
 //POST请求解析body
 app.use(bodyParser());
@@ -25,5 +29,5 @@ app.use(async (ctx) => {
 if (module.parent) {
   module.exports = app;
 } else {
-  app.listen(80);
+  app.listen(3002);
 }

@@ -18,6 +18,13 @@ class Project {
       return res.data;
     });
   }
+
+  cpu_temp() {
+    return request(`/system/info/cpu_temp`).then((res) => {
+      return res.data;
+    });
+  }
 }
 
 export default new Project();
+
