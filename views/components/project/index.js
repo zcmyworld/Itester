@@ -128,27 +128,8 @@ export default class Index extends Reflux.Component {
               margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
               <XAxis dataKey="name" />
               <YAxis />
-              <Area type='monotone' dataKey='pv' stroke='#8884d8' fill='#8884d8' activeDot={{ r: 8 }}/>
+              <Area type='monotone' dataKey='temp' stroke='#8884d8' fill='#8884d8' activeDot={{ r: 8 }}/>
             </AreaChart> : ''
-        }
-        {
-          this.state.CPU ?
-            <LineChart width={600} height={300} data={this.state.CPU}
-              margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
-            </LineChart> : ''
-        }
-        {this.state.CPU && this.state.CPU.length}
-        {
-          this.state.CPU ?
-            <BarChart width={600} height={300} data={this.state.CPU}
-              margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Bar dataKey="pv" fill="#8884d8" activeDot={{ r: 8 }} />
-            </BarChart> : ''
         }
       </div>
     );

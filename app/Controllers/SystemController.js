@@ -8,8 +8,21 @@ class SystemController {
   async cputemp(ctx) {
     let rs = await getPluginData('cpu_temp');
     ctx.body = {
-      data: rs.output
+      code: 0,
+      data: {
+        cpu_temp: rs.output[0]
+      }
     }
+  }
+
+  async ws_cputemp(ctx) {
+    let rs = await getPluginData('cpu_temp');
+    ctx.websocket.send({
+      code: 0,
+      data: {
+        cpu_temp: rs.output[0]
+      }
+    })
   }
 
 }

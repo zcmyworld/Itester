@@ -17,7 +17,7 @@ export default class Time {
     var h = dateObj.getHours()
     var m = dateObj.getMinutes()
     var s = dateObj.getSeconds()
-    // add a zero in front of numbers<10
+
     m = checkTime(m)
     s = checkTime(s)
     function checkTime(i) {

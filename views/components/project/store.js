@@ -2,6 +2,7 @@ import Reflux from 'reflux';
 import Action from './action';
 
 import Service from '../../services/Project';
+import WsService from '../../services/Ws';
 
 import TimeTool from '../../utils/time';
 
@@ -39,58 +40,34 @@ export default class Store extends Reflux.Store {
   }
 
   onMenu(list) {
+    WsService.setMessageListener(function(rs) {
+      console.log('success')
+      console.log(rs)
+    });
     if (!list) {
       list = [];
     }
+    for (let i = 0; i < 3; i++) {
+      console.log(i)
+      Service.cpu_temp().then((temp) => {
+        console.log(temp)
+
+      })
+    }
+
     this.setState({
-      CPU: [{ name: 'a', pv: 8000 }]
+      CPU: [{ name: 'a', temp: 8000 }]
     })
     setTimeout(() => {
       this.setState({
-        CPU: [{ name: 'a', pv: 8000 }, { name: 'b', pv: 8920 }]
+        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }]
       })
     }, 1000);
     setTimeout(() => {
       this.setState({
-        CPU: [{ name: 'a', pv: 8000 }, { name: 'b', pv: 8920 }, { name: 'c', pv: 7120 }]
+        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }, { name: 'c', temp: 7120 }]
       })
     }, 2000);
-    // setInterval(() => {
-    //   source.shift();
-    //   this.setState({
-    //     CPU: source
-    //   })
-    // }, 1000)
-
-    return;
-    let item = source.shift();
-    list.push(item);
-    this.setState({
-      CPU: list
-    })
-    setTimeout(() => {
-      let item = source.shift();
-      list.push(item);
-      this.setState({
-        CPU: list
-      })
-    }, 1000)
-    setTimeout(() => {
-      let item = source.shift();
-      list.push(item);
-      this.setState({
-        CPU: list
-      })
-    }, 2000)
-    setTimeout(() => {
-      let item = source.shift();
-      list.push(item);
-      this.setState({
-        CPU: list
-      })
-    }, 3000)
-
-    // console.log(this.state)
   }
 
   onSetKeyValue(key, value) {
