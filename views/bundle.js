@@ -499,14 +499,14 @@ module.exports = warning;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return PRESENTATION_ATTRIBUTES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return EVENT_ATTRIBUTES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return SCALE_TYPES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return LEGEND_TYPES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return LEGEND_TYPES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getDisplayName; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return findAllByType; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return findChildByType; });
 /* unused harmony export withoutType */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return getPresentationAttributes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return filterEventAttributes; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return filterEventsOfChild; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return filterEventsOfChild; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return validateWidthHeight; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return isSsr; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return filterSvgElements; });
@@ -1658,40 +1658,40 @@ module.exports = ExecutionEnvironment;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return getValueByDataKey; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return getDomainOfDataByKey; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return calculateActiveTickIndex; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return getMainColorOfGraphicItem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return getLegendProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return getBarSizeList; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return getBarPosition; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return appendOffsetOfLegend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return getDomainOfDataByKey; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return calculateActiveTickIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return getMainColorOfGraphicItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return getLegendProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return getBarSizeList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return getBarPosition; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return appendOffsetOfLegend; });
 /* unused harmony export getDomainOfErrorBars */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return parseErrorBarsOfAxis; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return getDomainOfItemsWithSameAxis; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return isCategorialAxis; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return getCoordinatesOfGrid; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return getTicksOfAxis; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return combineEventHandlers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return parseErrorBarsOfAxis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return getDomainOfItemsWithSameAxis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return isCategorialAxis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return getCoordinatesOfGrid; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return getTicksOfAxis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return combineEventHandlers; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return parseScale; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return checkDomainOfScale; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return findPositionOfBar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return truncateByDomain; });
 /* unused harmony export offsetSign */
 /* unused harmony export getStackedData */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return getStackGroupsByAxisId; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return getStackGroupsByAxisId; });
 /* unused harmony export calculateDomainOfTicks */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return getTicksOfScale; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return getCateCoordinateOfLine; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return getCateCoordinateOfLine; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return getCateCoordinateOfBar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return getBaseValueOfBar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return detectReferenceElementsDomain; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return getStackedDataOfItem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return getDomainOfStackGroups; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return detectReferenceElementsDomain; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return getStackedDataOfItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return getDomainOfStackGroups; });
 /* unused harmony export MIN_VALUE_REG */
 /* unused harmony export MAX_VALUE_REG */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return parseSpecifiedDomain; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return parseSpecifiedDomain; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return validateCoordinateInRange; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return getBandSizeOfAxis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return getBandSizeOfAxis; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_sortBy__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_sortBy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash_sortBy__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isString__ = __webpack_require__(217);
@@ -5017,7 +5017,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           graphicalItems: graphicalItems, dataStartIndex: dataStartIndex, dataEndIndex: dataEndIndex
         });
         var len = displayedData.length;
-        var isCategorial = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["k" /* isCategorialAxis */])(layout, axisType);
+        var isCategorial = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["j" /* isCategorialAxis */])(layout, axisType);
 
         // Eliminate duplicated axes
         var axisMap = axes.reduce(function (result, child) {
@@ -5035,7 +5035,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
                 categoricalDomain = void 0;
 
             if (dataKey) {
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["l" /* getDomainOfDataByKey */])(displayedData, dataKey, type);
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["k" /* getDomainOfDataByKey */])(displayedData, dataKey, type);
 
               if (type === 'category' && isCategorial) {
                 var duplicate = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_22__util_DataUtils__["h" /* hasDuplicate */])(domain);
@@ -5049,7 +5049,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
                   return entry !== '' && !__WEBPACK_IMPORTED_MODULE_3_lodash_isNil___default()(entry);
                 });
               } else if (type === 'number') {
-                var errorBarsDomain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["m" /* parseErrorBarsOfAxis */])(displayedData, graphicalItems.filter(function (item) {
+                var errorBarsDomain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["l" /* parseErrorBarsOfAxis */])(displayedData, graphicalItems.filter(function (item) {
                   return item.props[axisIdKey] === axisId && !item.props.hide;
                 }), dataKey, axisType);
 
@@ -5059,24 +5059,24 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
               }
 
               if (isCategorial && (type === 'number' || scale !== 'auto')) {
-                categoricalDomain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["l" /* getDomainOfDataByKey */])(displayedData, dataKey, 'category');
+                categoricalDomain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["k" /* getDomainOfDataByKey */])(displayedData, dataKey, 'category');
               }
             } else if (isCategorial) {
               domain = __WEBPACK_IMPORTED_MODULE_2_lodash_range___default()(0, len);
             } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack && type === 'number') {
               // when stackOffset is 'expand', the domain may be calculated as [0, 1.000000000002]
-              domain = stackOffset === 'expand' ? [0, 1] : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["n" /* getDomainOfStackGroups */])(stackGroups[axisId].stackGroups, dataStartIndex, dataEndIndex);
+              domain = stackOffset === 'expand' ? [0, 1] : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["m" /* getDomainOfStackGroups */])(stackGroups[axisId].stackGroups, dataStartIndex, dataEndIndex);
             } else {
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["o" /* getDomainOfItemsWithSameAxis */])(displayedData, graphicalItems.filter(function (item) {
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["n" /* getDomainOfItemsWithSameAxis */])(displayedData, graphicalItems.filter(function (item) {
                 return item.props[axisIdKey] === axisId && !item.props.hide;
               }), type, true);
             }
             if (type === 'number') {
               // To detect wether there is any reference lines whose props alwaysShow is true
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["p" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["o" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
 
               if (child.props.domain) {
-                domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["q" /* parseSpecifiedDomain */])(child.props.domain, domain, allowDataOverflow);
+                domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["p" /* parseSpecifiedDomain */])(child.props.domain, domain, allowDataOverflow);
               }
             }
 
@@ -5126,7 +5126,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           graphicalItems: graphicalItems, dataStartIndex: dataStartIndex, dataEndIndex: dataEndIndex
         });
         var len = displayedData.length;
-        var isCategorial = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["k" /* isCategorialAxis */])(layout, axisType);
+        var isCategorial = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["j" /* isCategorialAxis */])(layout, axisType);
         var index = -1;
 
         // The default type of x-axis is category axis,
@@ -5143,13 +5143,13 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             if (isCategorial) {
               domain = __WEBPACK_IMPORTED_MODULE_2_lodash_range___default()(0, len);
             } else if (stackGroups && stackGroups[axisId] && stackGroups[axisId].hasStack) {
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["n" /* getDomainOfStackGroups */])(stackGroups[axisId].stackGroups, dataStartIndex, dataEndIndex);
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["p" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["m" /* getDomainOfStackGroups */])(stackGroups[axisId].stackGroups, dataStartIndex, dataEndIndex);
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["o" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
             } else {
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["q" /* parseSpecifiedDomain */])(Axis.defaultProps.domain, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["o" /* getDomainOfItemsWithSameAxis */])(displayedData, graphicalItems.filter(function (item) {
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["p" /* parseSpecifiedDomain */])(Axis.defaultProps.domain, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["n" /* getDomainOfItemsWithSameAxis */])(displayedData, graphicalItems.filter(function (item) {
                 return item.props[axisIdKey] === axisId && !item.props.hide;
               }), 'number'), Axis.defaultProps.allowDataOverflow);
-              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["p" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
+              domain = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["o" /* detectReferenceElementsDomain */])(children, domain, axisId, axisType);
             }
 
             return _extends({}, result, _defineProperty({}, axisId, _extends({
@@ -5242,7 +5242,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             tooltipTicks = _state3.tooltipTicks;
 
         var pos = this.calculateTooltipPos(rangeObj);
-        var activeIndex = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["r" /* calculateActiveTickIndex */])(pos, ticks, axis);
+        var activeIndex = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["q" /* calculateActiveTickIndex */])(pos, ticks, axis);
 
         if (activeIndex >= 0 && tooltipTicks) {
           var activeLabel = tooltipTicks[activeIndex] && tooltipTicks[activeIndex].value;
@@ -5291,7 +5291,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           return [].concat(_toConsumableArray(result), [_extends({}, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_18__util_ReactUtils__["e" /* getPresentationAttributes */])(child), {
             dataKey: dataKey, unit: unit, formatter: formatter,
             name: name || dataKey,
-            color: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["s" /* getMainColorOfGraphicItem */])(child),
+            color: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["r" /* getMainColorOfGraphicItem */])(child),
             value: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["e" /* getValueByDataKey */])(displayedData[activeIndex], dataKey),
             payload: displayedData[activeIndex]
           })]);
@@ -5319,7 +5319,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             cateAxisName = _getAxisNameByLayout.cateAxisName;
 
         var hasBar = this.constructor.hasBar(graphicalItems);
-        var sizeList = hasBar && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getBarSizeList */])({ barSize: barSize, stackGroups: stackGroups });
+        var sizeList = hasBar && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["s" /* getBarSizeList */])({ barSize: barSize, stackGroups: stackGroups });
         var formatedItems = [];
 
         graphicalItems.forEach(function (item, index) {
@@ -5337,14 +5337,14 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             var id = item.props[entry.axisType + 'Id'];
             var axis = axisMap && axisMap[id];
 
-            return _extends({}, result, (_extends4 = {}, _defineProperty(_extends4, entry.axisType, axis), _defineProperty(_extends4, entry.axisType + 'Ticks', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(axis)), _extends4));
+            return _extends({}, result, (_extends4 = {}, _defineProperty(_extends4, entry.axisType, axis), _defineProperty(_extends4, entry.axisType + 'Ticks', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(axis)), _extends4));
           }, {});
           var cateAxis = axisObj[cateAxisName];
           var cateTicks = axisObj[cateAxisName + 'Ticks'];
-          var stackedData = stackGroups && stackGroups[numericAxisId] && stackGroups[numericAxisId].hasStack && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["v" /* getStackedDataOfItem */])(item, stackGroups[numericAxisId].stackGroups);
-          var bandSize = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["w" /* getBandSizeOfAxis */])(cateAxis, cateTicks);
+          var stackedData = stackGroups && stackGroups[numericAxisId] && stackGroups[numericAxisId].hasStack && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getStackedDataOfItem */])(item, stackGroups[numericAxisId].stackGroups);
+          var bandSize = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["v" /* getBandSizeOfAxis */])(cateAxis, cateTicks);
           var maxBarSize = __WEBPACK_IMPORTED_MODULE_3_lodash_isNil___default()(childMaxBarSize) ? globalMaxBarSize : childMaxBarSize;
-          var barPosition = hasBar && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["x" /* getBarPosition */])({
+          var barPosition = hasBar && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["w" /* getBarPosition */])({
             barGap: barGap, barCategoryGap: barCategoryGap, bandSize: bandSize, sizeList: sizeList[cateAxisId], maxBarSize: maxBarSize
           });
           var componsedFn = item && item.type && item.type.getComposedData;
@@ -5355,8 +5355,8 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             formatedItems.push({
               props: _extends({}, componsedFn(_extends({}, axisObj, { displayedData: displayedData, props: props, dataKey: dataKey, item: item, bandSize: bandSize,
                 barPosition: barPosition, offset: offset, stackedData: stackedData, layout: layout, dataStartIndex: dataStartIndex, dataEndIndex: dataEndIndex,
-                onItemMouseLeave: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["y" /* combineEventHandlers */])(_this2.handleItemMouseLeave, null, item.props.onMouseLeave),
-                onItemMouseEnter: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["y" /* combineEventHandlers */])(_this2.handleItemMouseEnter, null, item.props.onMouseEnter)
+                onItemMouseLeave: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["x" /* combineEventHandlers */])(_this2.handleItemMouseLeave, null, item.props.onMouseLeave),
+                onItemMouseEnter: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["x" /* combineEventHandlers */])(_this2.handleItemMouseEnter, null, item.props.onMouseEnter)
               })), (_extends5 = {
                 key: item.key || 'item-' + index
               }, _defineProperty(_extends5, numericAxisName, axisObj[numericAxisName]), _defineProperty(_extends5, cateAxisName, axisObj[cateAxisName]), _defineProperty(_extends5, 'animationId', updateId), _extends5)),
@@ -5556,7 +5556,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
             cateAxisName = _getAxisNameByLayout2.cateAxisName;
 
         var graphicalItems = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_18__util_ReactUtils__["c" /* findAllByType */])(children, GraphicalChild);
-        var stackGroups = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["z" /* getStackGroupsByAxisId */])(data, graphicalItems, numericAxisName + 'Id', cateAxisName + 'Id', stackOffset);
+        var stackGroups = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["y" /* getStackGroupsByAxisId */])(data, graphicalItems, numericAxisName + 'Id', cateAxisName + 'Id', stackOffset);
         var axisObj = axisComponents.reduce(function (result, entry) {
           var name = entry.axisType + 'Map';
 
@@ -5664,7 +5664,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
         if (legendItem && this.legendInstance) {
           var legendBox = this.legendInstance.getBBox();
 
-          offset = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["A" /* appendOffsetOfLegend */])(offset, graphicalItems, props, legendBox);
+          offset = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["z" /* appendOffsetOfLegend */])(offset, graphicalItems, props, legendBox);
         }
 
         return _extends({
@@ -5778,7 +5778,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
         var margin = this.props.margin || {};
         var legendWidth = width - (margin.left || 0) - (margin.right || 0);
         var legendHeight = height - (margin.top || 0) - (margin.bottom || 0);
-        var props = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["B" /* getLegendProps */])({
+        var props = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["A" /* getLegendProps */])({
           children: children, formatedGraphicalItems: formatedGraphicalItems, legendWidth: legendWidth, legendHeight: legendHeight, legendContent: legendContent
         });
 
@@ -5868,7 +5868,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           cx: activePoint.x,
           cy: activePoint.y,
           r: 4,
-          fill: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["s" /* getMainColorOfGraphicItem */])(item.item),
+          fill: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["r" /* getMainColorOfGraphicItem */])(item.item),
           strokeWidth: 2,
           stroke: '#fff',
           payload: activePoint.payload,
@@ -6249,8 +6249,8 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           width = _ref10.width,
           height = _ref10.height,
           offset = _ref10.offset;
-      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["C" /* getCoordinatesOfGrid */])(__WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].getTicks(_extends({}, __WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].defaultProps, xAxis, {
-        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(xAxis, true),
+      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["B" /* getCoordinatesOfGrid */])(__WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].getTicks(_extends({}, __WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].defaultProps, xAxis, {
+        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(xAxis, true),
         viewBox: { x: 0, y: 0, width: width, height: height }
       })), offset.left, offset.left + offset.width);
     };
@@ -6260,19 +6260,19 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           width = _ref11.width,
           height = _ref11.height,
           offset = _ref11.offset;
-      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["C" /* getCoordinatesOfGrid */])(__WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].getTicks(_extends({}, __WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].defaultProps, yAxis, {
-        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(yAxis, true),
+      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["B" /* getCoordinatesOfGrid */])(__WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].getTicks(_extends({}, __WEBPACK_IMPORTED_MODULE_19__cartesian_CartesianAxis__["a" /* default */].defaultProps, yAxis, {
+        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(yAxis, true),
         viewBox: { x: 0, y: 0, width: width, height: height }
       })), offset.top, offset.top + offset.height);
     };
 
     this.axesTicksGenerator = function (axis) {
-      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(axis, true);
+      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(axis, true);
     };
 
     this.tooltipTicksGenerator = function (axisMap) {
       var axis = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_22__util_DataUtils__["i" /* getAnyElementOfObject */])(axisMap);
-      var tooltipTicks = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(axis, false, true);
+      var tooltipTicks = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(axis, false, true);
 
       return {
         tooltipTicks: tooltipTicks,
@@ -6280,7 +6280,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
           return o.coordinate;
         }),
         tooltipAxis: axis,
-        tooltipAxisBandSize: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["w" /* getBandSizeOfAxis */])(axis)
+        tooltipAxisBandSize: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["v" /* getBandSizeOfAxis */])(axis)
       };
     };
 
@@ -6344,7 +6344,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
       return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5_react__["cloneElement"])(element, _extends({}, axisOption, {
         className: axisType,
         key: element.key || displayName + '-' + index,
-        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(axisOption, true).map(function (entry) {
+        ticks: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(axisOption, true).map(function (entry) {
           return _extends({}, entry, {
             coordinate: entry.coordinate - entry.offset
           });
@@ -6410,10 +6410,10 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
 
 
       return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5_react__["cloneElement"])(element, {
-        polarAngles: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(angleAxis, true).map(function (entry) {
+        polarAngles: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(angleAxis, true).map(function (entry) {
           return entry.coordinate;
         }),
-        polarRadius: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["u" /* getTicksOfAxis */])(radiusAxis, true).map(function (entry) {
+        polarRadius: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["t" /* getTicksOfAxis */])(radiusAxis, true).map(function (entry) {
           return entry.coordinate;
         }),
         cx: cx, cy: cy, innerRadius: innerRadius, outerRadius: outerRadius,
@@ -6435,7 +6435,7 @@ var generateCategoricalChart = function generateCategoricalChart(_ref) {
 
       return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5_react__["cloneElement"])(element, {
         key: element.key || '_recharts-brush',
-        onChange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["y" /* combineEventHandlers */])(_this6.handleBrushChange, null, element.props.onChange),
+        onChange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_23__util_ChartUtils__["x" /* combineEventHandlers */])(_this6.handleBrushChange, null, element.props.onChange),
         data: data,
         x: offset.left,
         y: offset.top + offset.height + offset.brushBottom - (margin.bottom || 0),
@@ -8808,9 +8808,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var CURVE_FACTORIES = {
-  curveBasisClosed: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["o" /* curveBasisClosed */], curveBasisOpen: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["p" /* curveBasisOpen */], curveBasis: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["q" /* curveBasis */], curveLinearClosed: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["r" /* curveLinearClosed */], curveLinear: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["s" /* curveLinear */],
-  curveMonotoneX: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["t" /* curveMonotoneX */], curveMonotoneY: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["u" /* curveMonotoneY */], curveNatural: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["v" /* curveNatural */], curveStep: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["w" /* curveStep */], curveStepAfter: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["x" /* curveStepAfter */],
-  curveStepBefore: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["y" /* curveStepBefore */]
+  curveBasisClosed: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["g" /* curveBasisClosed */], curveBasisOpen: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["h" /* curveBasisOpen */], curveBasis: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["i" /* curveBasis */], curveLinearClosed: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["j" /* curveLinearClosed */], curveLinear: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["k" /* curveLinear */],
+  curveMonotoneX: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["l" /* curveMonotoneX */], curveMonotoneY: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["m" /* curveMonotoneY */], curveNatural: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["n" /* curveNatural */], curveStep: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["o" /* curveStep */], curveStepAfter: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["p" /* curveStepAfter */],
+  curveStepBefore: __WEBPACK_IMPORTED_MODULE_4_d3_shape__["q" /* curveStepBefore */]
 };
 
 var defined = function defined(p) {
@@ -8833,7 +8833,7 @@ var getCurveFactory = function getCurveFactory(type, layout) {
   if (name === 'curveMonotone' && layout) {
     return CURVE_FACTORIES['' + name + (layout === 'vertical' ? 'Y' : 'X')];
   }
-  return CURVE_FACTORIES[name] || __WEBPACK_IMPORTED_MODULE_4_d3_shape__["s" /* curveLinear */];
+  return CURVE_FACTORIES[name] || __WEBPACK_IMPORTED_MODULE_4_d3_shape__["k" /* curveLinear */];
 };
 
 var Curve = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__util_PureRender__["a" /* default */])(_class = (_temp = _class2 = function (_Component) {
@@ -8871,11 +8871,11 @@ var Curve = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__util_PureRender__
           return _extends({}, entry, { base: baseLine[index] });
         });
         if (layout === 'vertical') {
-          lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["z" /* area */])().y(getY).x1(getX).x0(function (d) {
+          lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["r" /* area */])().y(getY).x1(getX).x0(function (d) {
             return d.base.x;
           });
         } else {
-          lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["z" /* area */])().x(getX).y1(getY).y0(function (d) {
+          lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["r" /* area */])().x(getX).y1(getY).y0(function (d) {
             return d.base.y;
           });
         }
@@ -8883,11 +8883,11 @@ var Curve = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__util_PureRender__
 
         return lineFunction(areaPoints);
       } else if (layout === 'vertical' && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__util_DataUtils__["b" /* isNumber */])(baseLine)) {
-        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["z" /* area */])().y(getY).x1(getX).x0(baseLine);
+        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["r" /* area */])().y(getY).x1(getX).x0(baseLine);
       } else if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__util_DataUtils__["b" /* isNumber */])(baseLine)) {
-        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["z" /* area */])().x(getX).y1(getY).y0(baseLine);
+        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["r" /* area */])().x(getX).y1(getY).y0(baseLine);
       } else {
-        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["A" /* line */])().x(getX).y(getY);
+        lineFunction = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_d3_shape__["s" /* line */])().x(getX).y(getY);
       }
 
       lineFunction.defined(defined).curve(curveFactory);
@@ -12482,7 +12482,7 @@ var PolarAngleAxis = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_Pur
           _extends({
             className: 'recharts-polar-angle-axis-tick',
             key: 'tick-' + i
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i)),
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i)),
           tickLine && __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('line', _extends({
             className: 'recharts-polar-angle-axis-tick-line'
           }, tickLineProps, lineCoord)),
@@ -12766,7 +12766,7 @@ var PolarRadiusAxis = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__util_Pu
           _extends({
             className: 'recharts-polar-radius-axis-tick',
             key: 'tick-' + i
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i)),
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i)),
           _this2.renderTickItem(tick, tickProps, tickFormatter ? tickFormatter(entry.value) : entry.value)
         );
       });
@@ -15962,7 +15962,7 @@ var Area = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util_PureRender__
   yAxis: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.object,
   xAxis: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.object,
   stackId: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.number, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.string]),
-  legendType: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_13__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_13__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   connectNulls: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.bool,
 
   activeDot: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.object, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.element, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.bool]),
@@ -16074,7 +16074,7 @@ var Area = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util_PureRender__
 
     if (layout === 'horizontal') {
       return {
-        x: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["j" /* getCateCoordinateOfLine */])({ axis: xAxis, ticks: xAxisTicks, bandSize: bandSize, entry: entry, index: index }),
+        x: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["C" /* getCateCoordinateOfLine */])({ axis: xAxis, ticks: xAxisTicks, bandSize: bandSize, entry: entry, index: index }),
         y: __WEBPACK_IMPORTED_MODULE_2_lodash_isNil___default()(value[1]) ? null : yAxis.scale(value[1]),
         value: value,
         payload: entry
@@ -16083,7 +16083,7 @@ var Area = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util_PureRender__
 
     return {
       x: __WEBPACK_IMPORTED_MODULE_2_lodash_isNil___default()(value[1]) ? null : xAxis.scale(value[1]),
-      y: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["j" /* getCateCoordinateOfLine */])({ axis: yAxis, ticks: yAxisTicks, bandSize: bandSize, entry: entry, index: index }),
+      y: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["C" /* getCateCoordinateOfLine */])({ axis: yAxis, ticks: yAxisTicks, bandSize: bandSize, entry: entry, index: index }),
       value: value,
       payload: entry
     };
@@ -16262,7 +16262,7 @@ var Bar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util_PureRender__[
           __WEBPACK_IMPORTED_MODULE_8__container_Layer__["a" /* default */],
           _extends({
             className: 'recharts-bar-rectangle'
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i), {
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i), {
             key: 'rectangle-' + i
           }),
           _this2.renderRectangle(shape, props)
@@ -16457,7 +16457,7 @@ var Bar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util_PureRender__[
   unit: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number]),
   name: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number]),
   dataKey: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.func]).isRequired,
-  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   minPointSize: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number,
   maxBarSize: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number,
   hide: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool,
@@ -17019,7 +17019,7 @@ var Line = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender__[
   xAxisId: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number]),
   yAxis: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.object,
   xAxis: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.object,
-  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_14__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   layout: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(['horizontal', 'vertical']),
   connectNulls: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool,
   hide: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool,
@@ -17082,7 +17082,7 @@ var Line = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender__[
 
     if (layout === 'horizontal') {
       return {
-        x: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["j" /* getCateCoordinateOfLine */])({ axis: xAxis, ticks: xAxisTicks, bandSize: bandSize, entry: entry, index: index }),
+        x: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["C" /* getCateCoordinateOfLine */])({ axis: xAxis, ticks: xAxisTicks, bandSize: bandSize, entry: entry, index: index }),
         y: __WEBPACK_IMPORTED_MODULE_2_lodash_isNil___default()(value) ? null : yAxis.scale(value),
         value: value,
         payload: entry
@@ -17091,7 +17091,7 @@ var Line = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender__[
 
     return {
       x: __WEBPACK_IMPORTED_MODULE_2_lodash_isNil___default()(value) ? null : xAxis.scale(value),
-      y: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["j" /* getCateCoordinateOfLine */])({ axis: yAxis, ticks: yAxisTicks, bandSize: bandSize, entry: entry, index: index }),
+      y: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_15__util_ChartUtils__["C" /* getCateCoordinateOfLine */])({ axis: yAxis, ticks: yAxisTicks, bandSize: bandSize, entry: entry, index: index }),
       value: value,
       payload: entry
     };
@@ -17244,7 +17244,7 @@ var Scatter = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender
           __WEBPACK_IMPORTED_MODULE_8__container_Layer__["a" /* default */],
           _extends({
             className: 'recharts-scatter-symbol'
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i), {
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i), {
             key: 'symbol-' + i
           }),
           _this2.renderSymbolItem(activeIndex === i ? activeShape : shape, props)
@@ -17474,7 +17474,7 @@ var Scatter = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender
   line: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.object, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.element]),
   lineType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(['fitting', 'joint']),
   lineJointType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(['basis', 'basisClosed', 'basisOpen', 'linear', 'linearClosed', 'natural', 'monotoneX', 'monotoneY', 'monotone', 'step', 'stepBefore', 'stepAfter']), __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.func]),
-  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   className: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.string,
 
   activeIndex: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number,
@@ -17613,7 +17613,7 @@ var renderContent = function renderContent(content, props) {
 };
 
 var EPS = 1;
-var ICON_TYPES = __WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["i" /* LEGEND_TYPES */].filter(function (type) {
+var ICON_TYPES = __WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["j" /* LEGEND_TYPES */].filter(function (type) {
   return type !== 'none';
 });
 
@@ -17799,7 +17799,7 @@ var Legend = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_PureRender_
   payload: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.shape({
     value: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.any,
     id: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.any,
-    type: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["i" /* LEGEND_TYPES */])
+    type: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["j" /* LEGEND_TYPES */])
   })),
   formatter: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.func,
   onMouseEnter: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.func,
@@ -17937,15 +17937,15 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var SYMBOL_FACTORIES = {
-  symbolCircle: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["g" /* symbolCircle */], symbolCross: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["h" /* symbolCross */], symbolDiamond: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["i" /* symbolDiamond */],
-  symbolSquare: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["j" /* symbolSquare */], symbolStar: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["k" /* symbolStar */], symbolTriangle: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["l" /* symbolTriangle */], symbolWye: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["m" /* symbolWye */]
+  symbolCircle: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["t" /* symbolCircle */], symbolCross: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["u" /* symbolCross */], symbolDiamond: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["v" /* symbolDiamond */],
+  symbolSquare: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["w" /* symbolSquare */], symbolStar: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["x" /* symbolStar */], symbolTriangle: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["y" /* symbolTriangle */], symbolWye: __WEBPACK_IMPORTED_MODULE_2_d3_shape__["z" /* symbolWye */]
 };
 var RADIAN = Math.PI / 180;
 
 var getSymbolFactory = function getSymbolFactory(type) {
   var name = 'symbol' + type.slice(0, 1).toUpperCase() + type.slice(1);
 
-  return SYMBOL_FACTORIES[name] || __WEBPACK_IMPORTED_MODULE_2_d3_shape__["g" /* symbolCircle */];
+  return SYMBOL_FACTORIES[name] || __WEBPACK_IMPORTED_MODULE_2_d3_shape__["t" /* symbolCircle */];
 };
 
 var calculateAreaSize = function calculateAreaSize(size, sizeType, type) {
@@ -17999,7 +17999,7 @@ var Symbols = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__util_PureRender
           type = _props.type;
 
       var symbolFactory = getSymbolFactory(type);
-      var symbol = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_d3_shape__["n" /* symbol */])().type(symbolFactory).size(calculateAreaSize(size, sizeType, type));
+      var symbol = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_d3_shape__["A" /* symbol */])().type(symbolFactory).size(calculateAreaSize(size, sizeType, type));
 
       return symbol();
     }
@@ -18951,9 +18951,9 @@ function map(object, f) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(471);
 /* unused harmony reexport arc */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(251);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_1__src_area__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_1__src_area__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(160);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_2__src_line__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__src_line__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(490);
 /* unused harmony reexport pie */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_radialArea__ = __webpack_require__(491);
@@ -18961,28 +18961,28 @@ function map(object, f) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_radialLine__ = __webpack_require__(256);
 /* unused harmony reexport radialLine */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_symbol__ = __webpack_require__(493);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__src_symbol__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_6__src_symbol__["a"]; });
 /* unused harmony reexport symbols */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_symbol_circle__ = __webpack_require__(257);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_7__src_symbol_circle__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_7__src_symbol_circle__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol_cross__ = __webpack_require__(258);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol_cross__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol_cross__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_diamond__ = __webpack_require__(259);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_9__src_symbol_diamond__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_9__src_symbol_diamond__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_symbol_square__ = __webpack_require__(260);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_10__src_symbol_square__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_10__src_symbol_square__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_symbol_star__ = __webpack_require__(261);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_11__src_symbol_star__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_11__src_symbol_star__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_symbol_triangle__ = __webpack_require__(262);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_12__src_symbol_triangle__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_12__src_symbol_triangle__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_symbol_wye__ = __webpack_require__(263);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_13__src_symbol_wye__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_13__src_symbol_wye__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_curve_basisClosed__ = __webpack_require__(473);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_14__src_curve_basisClosed__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_14__src_curve_basisClosed__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_curve_basisOpen__ = __webpack_require__(474);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_15__src_curve_basisOpen__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_15__src_curve_basisOpen__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basis__ = __webpack_require__(114);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_16__src_curve_basis__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_16__src_curve_basis__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_bundle__ = __webpack_require__(475);
 /* unused harmony reexport curveBundle */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_cardinalClosed__ = __webpack_require__(252);
@@ -18998,18 +18998,18 @@ function map(object, f) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRom__ = __webpack_require__(159);
 /* unused harmony reexport curveCatmullRom */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_linearClosed__ = __webpack_require__(478);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_24__src_curve_linearClosed__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_24__src_curve_linearClosed__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_linear__ = __webpack_require__(116);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_25__src_curve_linear__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_25__src_curve_linear__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_monotone__ = __webpack_require__(479);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_monotone__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_monotone__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_monotone__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_monotone__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_natural__ = __webpack_require__(480);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_27__src_curve_natural__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_27__src_curve_natural__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_step__ = __webpack_require__(481);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_step__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_stack__ = __webpack_require__(492);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_29__src_stack__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_offset_expand__ = __webpack_require__(484);
@@ -24281,7 +24281,7 @@ var CartesianAxis = (_temp = _class = function (_Component) {
           _extends({
             className: 'recharts-cartesian-axis-tick',
             key: 'tick-' + i
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i)),
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i)),
           tickLine && __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('line', _extends({
             className: 'recharts-cartesian-axis-tick-line'
           }, tickLineProps, lineCoord)),
@@ -25420,7 +25420,7 @@ var Pie = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__util_PureRender__["
           __WEBPACK_IMPORTED_MODULE_9__container_Layer__["a" /* default */],
           _extends({
             className: 'recharts-pie-sector'
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__util_ReactUtils__["j" /* filterEventsOfChild */])(_this3.props, entry, i), {
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__util_ReactUtils__["i" /* filterEventsOfChild */])(_this3.props, entry, i), {
             key: 'sector-' + i
           }),
           _this3.renderSectorItem(_this3.isActiveIndex(i) ? activeShape : null, entry)
@@ -25563,7 +25563,7 @@ var Pie = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__util_PureRender__["
   valueKey: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.number, __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.func]),
   data: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.object),
   minAngle: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.number,
-  legendType: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_16__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_16__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   maxRadius: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.number,
 
   sectors: __WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_5_prop_types___default.a.object),
@@ -26036,7 +26036,7 @@ var Radar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__util_PureRender__
   // whether have dot in poly line
   dot: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.object, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.element, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.bool]),
   label: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.element, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.object, __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.bool]),
-  legendType: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_8__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_8__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   hide: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.bool,
 
   onMouseEnter: __WEBPACK_IMPORTED_MODULE_3_prop_types___default.a.func,
@@ -26226,7 +26226,7 @@ var RadialBar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__util_PureRen
       return sectors.map(function (entry, i) {
         var props = _extends({}, baseProps, {
           cornerRadius: cornerRadius
-        }, entry, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i), {
+        }, entry, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i), {
           key: 'sector-' + i,
           className: 'recharts-radial-bar-sector'
         });
@@ -26331,7 +26331,7 @@ var RadialBar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__util_PureRen
           cornerRadius: cornerRadius
         }, rest, {
           fill: '#eee'
-        }, background, backgroundProps, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* filterEventsOfChild */])(_this4.props, entry, i), {
+        }, background, backgroundProps, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* filterEventsOfChild */])(_this4.props, entry, i), {
           index: i,
           key: 'sector-' + i,
           className: 'recharts-radial-bar-background-sector'
@@ -26399,7 +26399,7 @@ var RadialBar = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__util_PureRen
     outerRadius: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.number,
     value: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.value
   })),
-  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["i" /* LEGEND_TYPES */]),
+  legendType: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_9__util_ReactUtils__["j" /* LEGEND_TYPES */]),
   label: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.element, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.object]),
   background: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.func, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.object, __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.element]),
   hide: __WEBPACK_IMPORTED_MODULE_4_prop_types___default.a.bool,
@@ -40448,7 +40448,7 @@ var CartesianGrid = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_Pure
 
 
 
-/* unused harmony default export */ var _unused_webpack_default_export = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__generateCategoricalChart__["a" /* default */])({
+/* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__generateCategoricalChart__["a" /* default */])({
   chartName: 'LineChart',
   GraphicalChild: __WEBPACK_IMPORTED_MODULE_1__cartesian_Line__["a" /* default */],
   axisComponents: [{ axisType: 'xAxis', AxisComp: __WEBPACK_IMPORTED_MODULE_2__cartesian_XAxis__["a" /* default */] }, { axisType: 'yAxis', AxisComp: __WEBPACK_IMPORTED_MODULE_3__cartesian_YAxis__["a" /* default */] }],
@@ -41963,7 +41963,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var SIZE = 32;
-var ICON_TYPES = __WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["i" /* LEGEND_TYPES */].filter(function (type) {
+var ICON_TYPES = __WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["j" /* LEGEND_TYPES */].filter(function (type) {
   return type !== 'none';
 });
 
@@ -42061,7 +42061,7 @@ var DefaultLegendContent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__ut
             className: className,
             style: itemStyle,
             key: 'legend-item-' + i
-          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["j" /* filterEventsOfChild */])(_this2.props, entry, i)),
+          }, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["i" /* filterEventsOfChild */])(_this2.props, entry, i)),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             __WEBPACK_IMPORTED_MODULE_4__container_Surface__["a" /* default */],
             { width: iconSize, height: iconSize, viewBox: viewBox, style: svgStyle },
@@ -42113,7 +42113,7 @@ var DefaultLegendContent = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__ut
   payload: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.arrayOf(__WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.shape({
     value: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.any,
     id: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.any,
-    type: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["i" /* LEGEND_TYPES */])
+    type: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_6__util_ReactUtils__["j" /* LEGEND_TYPES */])
   })),
   inactiveColor: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string,
   formatter: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.func,
@@ -42513,7 +42513,7 @@ var ResponsiveContainer = (_temp = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__container_Layer__ = __webpack_require__(15);
 /* unused harmony reexport Layer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__component_Legend__ = __webpack_require__(147);
-/* unused harmony reexport Legend */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_3__component_Legend__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__component_Tooltip__ = __webpack_require__(109);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_4__component_Tooltip__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__component_ResponsiveContainer__ = __webpack_require__(433);
@@ -42565,7 +42565,7 @@ var ResponsiveContainer = (_temp = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__cartesian_CartesianGrid__ = __webpack_require__(420);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_28__cartesian_CartesianGrid__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__cartesian_Line__ = __webpack_require__(145);
-/* unused harmony reexport Line */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_29__cartesian_Line__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__cartesian_Area__ = __webpack_require__(143);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_30__cartesian_Area__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__cartesian_Bar__ = __webpack_require__(144);
@@ -42581,7 +42581,7 @@ var ResponsiveContainer = (_temp = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__cartesian_ErrorBar__ = __webpack_require__(79);
 /* unused harmony reexport ErrorBar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__chart_LineChart__ = __webpack_require__(424);
-/* unused harmony reexport LineChart */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_37__chart_LineChart__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__chart_BarChart__ = __webpack_require__(422);
 /* unused harmony reexport BarChart */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__chart_PieChart__ = __webpack_require__(425);
@@ -75133,7 +75133,7 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
   }
 
   componentDidMount() {
-    __WEBPACK_IMPORTED_MODULE_7__action__["a" /* default */].initwebsocket(this.state.cpu_temp);
+    __WEBPACK_IMPORTED_MODULE_7__action__["a" /* default */].initwebsocket();
   }
 
   render() {
@@ -75173,6 +75173,39 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Tooltip */], null),
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["e" /* CartesianGrid */], { strokeDasharray: '3 3' }),
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["f" /* Area */], { type: 'monotone', dataKey: 'temp', stroke: '#8884d8', fill: '#8884d8', activeDot: { r: 8 } })
+      ) : '',
+      this.state.cpu_utilization ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_9_recharts__["a" /* AreaChart */],
+        { width: 600, height: 400, data: this.state.cpu_utilization,
+          margin: { top: 10, right: 30, left: 0, bottom: 0 } },
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["b" /* XAxis */], { dataKey: 'name' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["c" /* YAxis */], { height: 100 }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Tooltip */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["e" /* CartesianGrid */], { strokeDasharray: '3 3' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["f" /* Area */], { type: 'monotone', dataKey: 'cpu_utilization', stroke: '#8884d8', fill: '#8884d8', activeDot: { r: 8 } })
+      ) : '',
+      this.state.load_avg ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_9_recharts__["g" /* LineChart */],
+        { width: 600, height: 300, data: this.state.load_avg,
+          margin: { top: 5, right: 30, left: 20, bottom: 5 } },
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["b" /* XAxis */], { dataKey: 'name' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["c" /* YAxis */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["e" /* CartesianGrid */], { strokeDasharray: '3 3' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Tooltip */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["h" /* Legend */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["i" /* Line */], { type: 'monotone', dataKey: '1_min_avg', stroke: '#8884d8', activeDot: { r: 8 } }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["i" /* Line */], { type: 'monotone', dataKey: '5_min_avg', stroke: '#8884d8', activeDot: { r: 8 } }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["i" /* Line */], { type: 'monotone', dataKey: '15_min_avg', stroke: '#8884d8', activeDot: { r: 8 } })
+      ) : '',
+      this.state.current_ram ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_9_recharts__["a" /* AreaChart */],
+        { width: 600, height: 400, data: this.state.current_ram,
+          margin: { top: 10, right: 30, left: 0, bottom: 0 } },
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["b" /* XAxis */], { dataKey: 'name' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["c" /* YAxis */], { height: 100 }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Tooltip */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["e" /* CartesianGrid */], { strokeDasharray: '3 3' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["f" /* Area */], { type: 'monotone', dataKey: 'current_ram', stroke: '#8884d8', fill: '#8884d8', activeDot: { r: 8 } })
       ) : ''
     );
   }
@@ -75225,29 +75258,81 @@ class Store extends __WEBPACK_IMPORTED_MODULE_0_reflux___default.a.Store {
     });
   }
 
-  onInitwebsocket(list) {
-    if (!list) {
-      this.setState({
-        cpu_temp: []
-      });
+  onInitwebsocket() {
+    if (!this.state.cpu_temp) {
+      this.state.cpu_temp = [];
     }
+    if (!this.state.cpu_utilization) {
+      this.state.cpu_utilization = [];
+    }
+    if (!this.state.load_avg) {
+      this.state.load_avg = [];
+    }
+    if (!this.state.current_ram) {
+      this.state.current_ram = [];
+    }
+
     setTimeout(() => {
       setInterval(() => {
         __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.send(JSON.stringify({ key: 1 }));
       }, 1000);
-    }, 2000);
+    }, 1000);
 
     __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.setMessageListener(rs => {
       rs = JSON.parse(rs);
-      let item = {
-        name: rs.data.time.formattime,
-        temp: rs.data.temp
-      };
-      this.state.cpu_temp = this.state.cpu_temp.concat([item]);
-      this.state.cpu_temp = this.state.cpu_temp.slice(-20);
-      this.setState({
-        cpu_temp: this.state.cpu_temp
-      });
+
+      if (rs.code == -1) {
+        return;
+      }
+      if (rs.connect_type == 'cpu_temp') {
+        let item = {
+          name: rs.data.time.formattime,
+          temp: rs.data.info
+        };
+        this.state.cpu_temp = this.state.cpu_temp.concat([item]);
+        this.state.cpu_temp = this.state.cpu_temp.slice(-20);
+        this.setState({
+          cpu_temp: this.state.cpu_temp
+        });
+      }
+      if (rs.connect_type == 'cpu_utilization') {
+        let item = {
+          name: rs.data.time.formattime,
+          cpu_utilization: rs.data.info
+        };
+        this.state.cpu_utilization = this.state.cpu_utilization.concat([item]);
+        this.state.cpu_utilization = this.state.cpu_utilization.slice(-20);
+        this.setState({
+          cpu_utilization: this.state.cpu_utilization
+        });
+      }
+
+      if (rs.connect_type == 'load_avg') {
+        let item = {
+          name: rs.data.time.formattime
+        };
+        rs.data.info = rs.data.info.replace(/\\/g, '');
+        rs.data.info = JSON.parse(rs.data.info);
+        item['1_min_avg'] = rs.data.info['1_min_avg'];
+        item['5_min_avg'] = rs.data.info['5_min_avg'];
+        item['15_min_avg'] = rs.data.info['15_min_avg'];
+        this.state.load_avg = this.state.load_avg.concat([item]);
+        this.state.load_avg = this.state.load_avg.slice(-20);
+        this.setState({
+          load_avg: this.state.load_avg
+        });
+      }
+      if (rs.connect_type == 'current_ram') {
+        let item = {
+          name: rs.data.time.formattime,
+          current_ram: rs.data.info
+        };
+        this.state.current_ram = this.state.current_ram.concat([item]);
+        this.state.current_ram = this.state.current_ram.slice(-20);
+        this.setState({
+          current_ram: this.state.current_ram
+        });
+      }
     });
   }
 

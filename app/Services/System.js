@@ -39,15 +39,23 @@ class System {
   async cpu_temp() {
     let rs = await getPluginData('cpu_temp');
     return rs.output[0];
-
-
-
   }
 
   async cpu_utilization() {
     let rs = await getPluginData('cpu_utilization');
     return rs.output[0];
 
+  }
+
+  async current_ram() {
+    let rs = await getPluginData('current_ram');
+    return rs.output[0];
+  }
+
+
+  async load_avg() {
+    let rs = await getPluginData('load_avg');
+    return rs.output[0];
   }
 }
 
@@ -72,7 +80,8 @@ async function getPluginData(pluginName) {
 
 module.exports = new System();
 
-// let co = require('co');
-// co(async function () {
-//   await module.exports.cpu_utilization();
-// })
+let co = require('co');
+co(async function () {
+  let rs = await module.exports.current_ram();
+  console.log(rs)
+})

@@ -41,8 +41,10 @@ app.ws.use(async function (ctx, next) {
   ctx.websocket.on('message', async function (message) {
     try {
       message = JSON.parse(message);
-      await WsController.cpu_temp(ctx);
-      
+      WsController.cpu_temp(ctx);
+      WsController.cpu_utilization(ctx);
+      WsController.load_avg(ctx);
+      WsController.current_ram(ctx);
     } catch (e) {
       console.log(e)
       ctx.websocket.send(JSON.stringify({
@@ -62,6 +64,3 @@ if (module.parent) {
 } else {
   app.listen(3002);
 }
-
-// let arr = [1,2,3]
-// console.log(arr.slice(-11))

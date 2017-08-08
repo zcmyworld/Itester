@@ -10,12 +10,50 @@ class WsController {
     let temp = await SystemService.cpu_temp();
     temp = parseFloat(temp)
     ctx.websocket.send(JSON.stringify({
-      code: 0,
+      connect_type: "cpu_temp",
       data: {
         time: ToolTime.getTime(),
-        temp: temp
+        info: temp
       }
     }))
+  }
+
+  async cpu_utilization(ctx) {
+    let info = await SystemService.cpu_utilization();
+    info = parseFloat(info)
+    ctx.websocket.send(JSON.stringify({
+      connect_type: "cpu_utilization",
+      data: {
+        time: ToolTime.getTime(),
+        info: info
+      }
+    }))
+  }
+
+  async load_avg(ctx) {
+    let info = await SystemService.load_avg();
+    ctx.websocket.send(JSON.stringify({
+      connect_type: "load_avg",
+      data: {
+        time: ToolTime.getTime(),
+        info: info
+      }
+    }))
+  }
+
+  async current_ram(ctx) {
+    let info = await SystemService.current_ram();
+    info = info.replace(/\\/g, '');
+    info = JSON.parse(info);
+    let rs = parseFloat(info.used / info.total);
+    ctx.websocket.send(JSON.stringify({
+      connect_type: "current_ram",
+      data: {
+        time: ToolTime.getTime(),
+        info: rs
+      }
+    }))
+    console.log(rs)
   }
 }
 
