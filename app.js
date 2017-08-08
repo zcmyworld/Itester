@@ -29,14 +29,30 @@ app.use(async (ctx) => {
   await send(ctx, ctx.path, { root: path.join(__dirname, '/statics') });
 })
 
-app.ws.use(function (ctx, next) {
-  ctx.websocket.on('message', function (message) {
-    // do something with the message from client 
-    console.log(message);
+
+
+
+let SystemService = require('./app/Services/System');
+
+let WsController = require('./app/Controllers/WsController');
+
+
+app.ws.use(async function (ctx, next) {
+  ctx.websocket.on('message', async function (message) {
+    try {
+      message = JSON.parse(message);
+      await WsController.cpu_temp(ctx);
+      
+    } catch (e) {
+      console.log(e)
+      ctx.websocket.send(JSON.stringify({
+        code: -1,
+        message: 'ws参数异常'
+      }));
+    }
   });
-  console.log(ctx.request)
-  ctx.websocket.send('Hello World');
-  // return `next` to pass the context (ctx) on to the next ws middleware 
+
+
   return next(ctx);
 });
 
@@ -46,3 +62,6 @@ if (module.parent) {
 } else {
   app.listen(3002);
 }
+
+// let arr = [1,2,3]
+// console.log(arr.slice(-11))

@@ -75170,7 +75170,10 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
   }
 
   render() {
+    console.log("render");
+    // console.log(typeof this.state.CPU)
     console.log(this.state.CPU);
+
     return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
       'div',
       null,
@@ -75232,14 +75235,6 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
 
 
 
-function mathRand(randLen = 6) {
-  let Num = "";
-  for (var i = 0; i < randLen; i++) {
-    Num += Math.floor(Math.random() * 10);
-  }
-  return parseInt(Num);
-}
-
 class Store extends __WEBPACK_IMPORTED_MODULE_0_reflux___default.a.Store {
   constructor() {
     super();
@@ -75266,33 +75261,45 @@ class Store extends __WEBPACK_IMPORTED_MODULE_0_reflux___default.a.Store {
   }
 
   onMenu(list) {
-    __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.setMessageListener(function (rs) {
-      console.log('success');
-      console.log(rs);
-    });
     if (!list) {
-      list = [];
-    }
-    for (let i = 0; i < 3; i++) {
-      console.log(i);
-      __WEBPACK_IMPORTED_MODULE_2__services_Project__["a" /* default */].cpu_temp().then(temp => {
-        console.log(temp);
+      // list = [];
+      this.setState({
+        CPU: []
       });
     }
-
-    this.setState({
-      CPU: [{ name: 'a', temp: 8000 }]
-    });
     setTimeout(() => {
-      this.setState({
-        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }]
-      });
-    }, 1000);
-    setTimeout(() => {
-      this.setState({
-        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }, { name: 'c', temp: 7120 }]
-      });
+      setInterval(() => {
+        __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.send(JSON.stringify({ key: 1 }));
+      }, 1000);
     }, 2000);
+
+    __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.setMessageListener(rs => {
+      rs = JSON.parse(rs);
+      console.log(rs);
+      let item = {
+        name: rs.data.time.formattime,
+        temp: rs.data.temp
+      };
+      this.state.CPU = this.state.CPU.concat([item]);
+      this.state.CPU = this.state.CPU.slice(-20);
+      this.setState({
+        CPU: this.state.CPU
+      });
+    });
+
+    // this.setState({
+    //   CPU: [{ name: '11:33:42', temp: 23 }]
+    // } )
+    // setTimeout(() => {
+    //   this.setState({
+    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }]
+    //   })
+    // }, 1000);
+    // setTimeout(() => {
+    //   this.setState({
+    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }, { name: '11:33:44', temp: 73 }]
+    //   })
+    // }, 2000);
   }
 
   onSetKeyValue(key, value) {

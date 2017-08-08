@@ -111,7 +111,10 @@ export default class Index extends Reflux.Component {
   }
 
   render() {
+    console.log("render");
+    // console.log(typeof this.state.CPU)
     console.log(this.state.CPU)
+
     return (
       <div>
         <h2>Test Url</h2>

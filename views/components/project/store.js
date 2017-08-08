@@ -6,13 +6,7 @@ import WsService from '../../services/Ws';
 
 import TimeTool from '../../utils/time';
 
-function mathRand(randLen = 6) {
-  let Num = "";
-  for (var i = 0; i < randLen; i++) {
-    Num += Math.floor(Math.random() * 10);
-  }
-  return parseInt(Num);
-}
+
 
 export default class Store extends Reflux.Store {
   constructor() {
@@ -40,34 +34,49 @@ export default class Store extends Reflux.Store {
   }
 
   onMenu(list) {
-    WsService.setMessageListener(function(rs) {
-      console.log('success')
-      console.log(rs)
-    });
     if (!list) {
-      list = [];
-    }
-    for (let i = 0; i < 3; i++) {
-      console.log(i)
-      Service.cpu_temp().then((temp) => {
-        console.log(temp)
-
+      // list = [];
+      this.setState({
+        CPU: []
       })
     }
+    setTimeout(() => {
+      setInterval(() => {
+        WsService.send(JSON.stringify({key: 1}));
 
-    this.setState({
-      CPU: [{ name: 'a', temp: 8000 }]
+      }, 1000)
+    }, 2000)
+
+
+
+    WsService.setMessageListener((rs) => {
+      rs = JSON.parse(rs);
+      console.log(rs)
+      let item = {
+        name: rs.data.time.formattime,
+        temp: rs.data.temp
+      }
+      this.state.CPU = this.state.CPU.concat([item]);
+      this.state.CPU = this.state.CPU.slice(-20)
+      this.setState({
+        CPU: this.state.CPU
+      })
     })
-    setTimeout(() => {
-      this.setState({
-        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }]
-      })
-    }, 1000);
-    setTimeout(() => {
-      this.setState({
-        CPU: [{ name: 'a', temp: 8000 }, { name: 'b', temp: 8920 }, { name: 'c', temp: 7120 }]
-      })
-    }, 2000);
+
+
+    // this.setState({
+    //   CPU: [{ name: '11:33:42', temp: 23 }]
+    // } )
+    // setTimeout(() => {
+    //   this.setState({
+    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }]
+    //   })
+    // }, 1000);
+    // setTimeout(() => {
+    //   this.setState({
+    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }, { name: '11:33:44', temp: 73 }]
+    //   })
+    // }, 2000);
   }
 
   onSetKeyValue(key, value) {
