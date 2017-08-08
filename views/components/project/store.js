@@ -33,50 +33,31 @@ export default class Store extends Reflux.Store {
     })
   }
 
-  onMenu(list) {
+  onInitwebsocket(list) {
     if (!list) {
-      // list = [];
       this.setState({
-        CPU: []
+        cpu_temp: []
       })
     }
     setTimeout(() => {
       setInterval(() => {
-        WsService.send(JSON.stringify({key: 1}));
-
+        WsService.send(JSON.stringify({ key: 1 }));
       }, 1000)
     }, 2000)
 
 
-
     WsService.setMessageListener((rs) => {
       rs = JSON.parse(rs);
-      console.log(rs)
       let item = {
         name: rs.data.time.formattime,
         temp: rs.data.temp
       }
-      this.state.CPU = this.state.CPU.concat([item]);
-      this.state.CPU = this.state.CPU.slice(-20)
+      this.state.cpu_temp = this.state.cpu_temp.concat([item]);
+      this.state.cpu_temp = this.state.cpu_temp.slice(-20)
       this.setState({
-        CPU: this.state.CPU
+        cpu_temp: this.state.cpu_temp
       })
     })
-
-
-    // this.setState({
-    //   CPU: [{ name: '11:33:42', temp: 23 }]
-    // } )
-    // setTimeout(() => {
-    //   this.setState({
-    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }]
-    //   })
-    // }, 1000);
-    // setTimeout(() => {
-    //   this.setState({
-    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }, { name: '11:33:44', temp: 73 }]
-    //   })
-    // }, 2000);
   }
 
   onSetKeyValue(key, value) {

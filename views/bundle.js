@@ -37843,7 +37843,7 @@ exports.default = function (obj, keys) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_reflux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_reflux__);
 
 
-/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_reflux___default.a.createActions(["info", "menu", "setKeyValue"]));
+/* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_reflux___default.a.createActions(["info", "initwebsocket", "setKeyValue"]));
 
 /***/ }),
 /* 391 */
@@ -40341,7 +40341,7 @@ var CartesianGrid = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__util_Pure
   fill: 'none'
 }, _temp)) || _class;
 
-/* unused harmony default export */ var _unused_webpack_default_export = (CartesianGrid);
+/* harmony default export */ __webpack_exports__["a"] = (CartesianGrid);
 
 /***/ }),
 /* 421 */
@@ -42515,7 +42515,7 @@ var ResponsiveContainer = (_temp = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__component_Legend__ = __webpack_require__(147);
 /* unused harmony reexport Legend */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__component_Tooltip__ = __webpack_require__(109);
-/* unused harmony reexport Tooltip */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_4__component_Tooltip__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__component_ResponsiveContainer__ = __webpack_require__(433);
 /* unused harmony reexport ResponsiveContainer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__component_Cell__ = __webpack_require__(80);
@@ -42563,11 +42563,11 @@ var ResponsiveContainer = (_temp = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__cartesian_CartesianAxis__ = __webpack_require__(232);
 /* unused harmony reexport CartesianAxis */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__cartesian_CartesianGrid__ = __webpack_require__(420);
-/* unused harmony reexport CartesianGrid */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_28__cartesian_CartesianGrid__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__cartesian_Line__ = __webpack_require__(145);
 /* unused harmony reexport Line */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__cartesian_Area__ = __webpack_require__(143);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_30__cartesian_Area__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_30__cartesian_Area__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__cartesian_Bar__ = __webpack_require__(144);
 /* unused harmony reexport Bar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__cartesian_Scatter__ = __webpack_require__(146);
@@ -75133,47 +75133,10 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
   }
 
   componentDidMount() {
-    let data = [{ name: 'a', pv: 8000 }, { name: 'b', pv: 7222 }, { name: 'c', pv: 6222 }, { name: 'd', pv: 5400 }, { name: 'e', pv: 3200 }, { name: 'f', pv: 2500 }, { name: 'g', pv: 1209 }, { name: 'h', pv: 1209 }, { name: 'i', pv: 1209 }, { name: 'i1', pv: 1209 }, { name: 'i3', pv: 1209 }, { name: 'i4', pv: 1209 }, { name: 'i7', pv: 1209 }, { name: 'i8', pv: 1209 }, { name: 'i9', pv: 1209 }, { name: 'j', pv: 1209 }, { name: 'j1', pv: 1209 }, { name: 'j2', pv: 1209 }, { name: 'j3', pv: 1209 }, { name: 'j4', pv: 1209 }, { name: 'j5', pv: 1209 }, { name: 'j6', pv: 1209 }, { name: 'k1', pv: 1209 }, { name: 'k1', pv: 1209 }, { name: 'k2', pv: 1209 }, { name: 'k3', pv: 1209 }, { name: 'k4', pv: 1209 }, { name: 'k5', pv: 1209 }, { name: 'k6', pv: 1209 }, { name: 'k7', pv: 1209 }, { name: 'k8', pv: 1209 }, { name: 'k9', pv: 1209 }, { name: 'l1', pv: 1209 }, { name: 'l2', pv: 1209 }, { name: 'l3', pv: 1209 }, { name: 'm', pv: 1209 }, { name: 'm1', pv: 1209 }, { name: 'm2', pv: 1209 }, { name: 'm3', pv: 1209 }, { name: 'm4', pv: 1209 }, { name: 'm5', pv: 1209 }, { name: 'm6', pv: 1209 }];
-    let time = {
-      hour: 17,
-      min: 45,
-      second: 0
-      //30s实时
-    };data = [];
-    function time2str(time) {
-      return time.hour.toString() + ":" + time.min.toString() + ":" + time.second.toString();
-    }
-    for (let i = 0; i < 50; i++) {
-      if (time.second != 0) {
-        time.second = 0;
-      } else if (time.second == 0 && time.min != 0) {
-        time.min = time.min - 1;
-        time.second = 30;
-      }
-      // data.push({ name: time, pv: 0 })
-      data = [{ name: time2str(time), pv: 0 }].concat(data);
-    }
-    // console.log(data)
-
-
-    // Action.menu(data);
-
-    // setInterval(() => {
-    __WEBPACK_IMPORTED_MODULE_7__action__["a" /* default */].menu(this.state.CPU);
-    // Action.menu([{ name: 'Page A', uv: 4000, pv: 2400, amt: 2400 }, { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 }]);
-    // }, 1000)
-    // setTimeout(() => {
-    // Action.menu([{ name: 'Page A', uv: 4000, pv: 2400, amt: 2400 }, { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 }, { name: 'Page C', uv: 2000, pv: 9800, amt: 2290 }]);
-    // }, 2000)
-    // Action.menu([{ name: 'Page A', uv: 4000, pv: 2400, amt: 2400 }, { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 }]);
-    // Action.menu([{ name: 'Page A', uv: 4000, pv: 2400, amt: 2400 }, { name: 'Page B', uv: 3000, pv: 1398, amt: 2210 }, { name: 'Page C', uv: 2000, pv: 9800, amt: 2290 }]);
+    __WEBPACK_IMPORTED_MODULE_7__action__["a" /* default */].initwebsocket(this.state.cpu_temp);
   }
 
   render() {
-    console.log("render");
-    // console.log(typeof this.state.CPU)
-    console.log(this.state.CPU);
-
     return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
       'div',
       null,
@@ -75201,13 +75164,15 @@ class Index extends __WEBPACK_IMPORTED_MODULE_5_reflux___default.a.Component {
         null,
         'System Dashboard'
       ),
-      this.state.CPU ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
+      this.state.cpu_temp ? __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_9_recharts__["a" /* AreaChart */],
-        { width: 600, height: 400, data: this.state.CPU,
+        { width: 600, height: 400, data: this.state.cpu_temp,
           margin: { top: 10, right: 30, left: 0, bottom: 0 } },
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["b" /* XAxis */], { dataKey: 'name' }),
         __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["c" /* YAxis */], null),
-        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Area */], { type: 'monotone', dataKey: 'temp', stroke: '#8884d8', fill: '#8884d8', activeDot: { r: 8 } })
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["d" /* Tooltip */], null),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["e" /* CartesianGrid */], { strokeDasharray: '3 3' }),
+        __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_recharts__["f" /* Area */], { type: 'monotone', dataKey: 'temp', stroke: '#8884d8', fill: '#8884d8', activeDot: { r: 8 } })
       ) : ''
     );
   }
@@ -75260,11 +75225,10 @@ class Store extends __WEBPACK_IMPORTED_MODULE_0_reflux___default.a.Store {
     });
   }
 
-  onMenu(list) {
+  onInitwebsocket(list) {
     if (!list) {
-      // list = [];
       this.setState({
-        CPU: []
+        cpu_temp: []
       });
     }
     setTimeout(() => {
@@ -75275,31 +75239,16 @@ class Store extends __WEBPACK_IMPORTED_MODULE_0_reflux___default.a.Store {
 
     __WEBPACK_IMPORTED_MODULE_3__services_Ws___default.a.setMessageListener(rs => {
       rs = JSON.parse(rs);
-      console.log(rs);
       let item = {
         name: rs.data.time.formattime,
         temp: rs.data.temp
       };
-      this.state.CPU = this.state.CPU.concat([item]);
-      this.state.CPU = this.state.CPU.slice(-20);
+      this.state.cpu_temp = this.state.cpu_temp.concat([item]);
+      this.state.cpu_temp = this.state.cpu_temp.slice(-20);
       this.setState({
-        CPU: this.state.CPU
+        cpu_temp: this.state.cpu_temp
       });
     });
-
-    // this.setState({
-    //   CPU: [{ name: '11:33:42', temp: 23 }]
-    // } )
-    // setTimeout(() => {
-    //   this.setState({
-    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }]
-    //   })
-    // }, 1000);
-    // setTimeout(() => {
-    //   this.setState({
-    //     CPU: [{ name: '11:33:42', temp: 12 }, { name: '11:33:43', temp: 23 }, { name: '11:33:44', temp: 73 }]
-    //   })
-    // }, 2000);
   }
 
   onSetKeyValue(key, value) {
